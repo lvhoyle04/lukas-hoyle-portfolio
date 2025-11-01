@@ -12,11 +12,11 @@ This brief documents the use of Docker to create a reproducible and isolated env
 - Enable rapid resets and reproducible deployments using `docker-compose`.
 
 ## Architecture
-```
+
 
 Docker Host → Docker Compose → Containers (n8n, Postgres, Traefik)
 
-````
+
 
 | Service | Purpose | Port |
 |----------|----------|------|
@@ -41,13 +41,13 @@ Docker Host → Docker Compose → Containers (n8n, Postgres, Traefik)
 1. Build and start containers:
    ```bash
    docker-compose up -d
-````
+
 
 2. Verify container health:
 
-   ```
+   
    docker ps
-   ```
+   
 3. Access the n8n editor UI at `http://localhost:5678`.
 
 ## Outcomes
@@ -60,12 +60,12 @@ Docker Host → Docker Compose → Containers (n8n, Postgres, Traefik)
 
 Containerization streamlined workflow testing and eliminated cross-platform inconsistencies. Future optimizations include automated image updates, log aggregation, and container monitoring to improve uptime and audit readiness.
 
-```
 
----
+
+
 
 ✅ **Next Step:**  
 Open your repo → go to `briefs/DOCKER_ENVIRONMENT_BRIEF.md` → paste this entire text → **Commit changes.**
 
 Would you like me to format and generate the **n8n Automation Brief** next in this same single-file, copy-ready format?
-```
+
